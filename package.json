@@ -1,0 +1,27 @@
+{
+	"name": "roblox",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"lint": "biome check",
+		"format": "biome format --write",
+		"prepare": "husky"
+	},
+	"lint-staged": {
+		"*.{ts,tsx,js,jsx,json}": [
+			"biome check --write --no-errors-on-unmatched"
+		]
+	},
+	"keywords": [],
+	"devDependencies": {
+		"@biomejs/biome": "2.5.10",
+		"@rbxts/compiler-types": "^3.0.0-types.0",
+		"@rbxts/types": "^1.0.945",
+		"husky": "^9.1.7",
+		"lint-staged": "^17.3.0",
+		"roblox-ts": "^3.0.0",
+		"typescript": "^7.0.2"
+	}
+}
