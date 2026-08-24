@@ -17,11 +17,17 @@
 					"$className": "Folder",
 					"@rbxts": {
 						"$path": "node_modules/@rbxts"
+					},
+					"@rbxts-js": {
+						"$path": "node_modules/@rbxts-js"
 					}
 				}
 			},
 			"TS": {
 				"$path": "out/shared"
+			},
+			"PlayerStateRemote": {
+				"$className": "RemoteEvent"
 			}
 		},
 		"StarterPlayer": {

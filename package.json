@@ -23,5 +23,11 @@
 		"lint-staged": "^17.3.0",
 		"roblox-ts": "^3.0.0",
 		"typescript": "^7.0.2"
+	},
+	"dependencies": {
+		"@rbxts/react": "^17.3.7-ts.2",
+		"@rbxts/react-roblox": "^17.3.7-ts.2",
+		"@rbxts/services": "^1.6.0",
+		"@rbxts/state-management": "^0.3.9"
 	}
 }
